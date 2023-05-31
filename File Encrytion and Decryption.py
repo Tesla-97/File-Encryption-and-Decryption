@@ -13,8 +13,7 @@ class App(tk.Frame):
         self.pack()
 
         # Load the image and create a PhotoImage object
-        img = Image.open("File-Encrytpion-Decryption
-/lock.jpg")
+        img = Image.open("path/to/your/image.jpg")
         self.img_tk = ImageTk.PhotoImage(img)
 
         # Create a canvas widget and add the image to it
@@ -92,6 +91,7 @@ class App(tk.Frame):
         with open(save_file_path, "wb") as f:
             f.write(decrypted_data)
 
-root = tk.Tk()
-app = App(master=root)
-app.mainloop()
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = App(master=root)
+    app.mainloop()
