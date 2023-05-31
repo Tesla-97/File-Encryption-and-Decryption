@@ -1,0 +1,6 @@
+apt-get install python3-tk
+
+pip install cryptography
+
+
+pip install pillow
