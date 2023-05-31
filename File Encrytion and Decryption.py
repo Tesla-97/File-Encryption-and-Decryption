@@ -13,7 +13,7 @@ class App(tk.Frame):
         self.pack()
 
         # Load the image and create a PhotoImage object
-        img = Image.open("path/to/your/image.jpg")
+        img = Image.open("lock.jpg")
         self.img_tk = ImageTk.PhotoImage(img)
 
         # Create a canvas widget and add the image to it
