@@ -13,7 +13,8 @@ class App(tk.Frame):
         self.pack()
 
         # Load the image and create a PhotoImage object
-        img = Image.open("insert a background image.jpg")
+        img = Image.open("File-Encrytpion-Decryption
+/lock.jpg")
         self.img_tk = ImageTk.PhotoImage(img)
 
         # Create a canvas widget and add the image to it
